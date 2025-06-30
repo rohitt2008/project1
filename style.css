@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", serif;
+}
+html , body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+}
+#nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+#nav-1{
+  display: flex;
+  align-items: center;
+}
+#nav h3{
+  font-size: 16px;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#nav i{
+  font-size: 16px;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#nav h1{
+ font-size: 22px;
+ font-weight: 500;
+ text-transform: uppercase;
+}
+#nav button{
+  font-size: 17px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+#btn2{
+  color: white;
+  background-color: orangered;
+}
+#main>h1{
+  font-size: 130px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: 500;
+}
+#img1{
+  height: 360px;
+  width: 280px;
+  object-fit: cover;
+  object-position: top;
+  position:absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-5deg);
+  border-radius: 20px;
+}
+#img2{
+  height: 360px;
+  width: 280px;
+  object-fit: cover;
+  object-position: top;
+  position:absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+#img3{
+  height: 360px;
+  width: 280px;
+  object-fit: cover;
+  object-position: top;
+  position:absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+#img4{
+  height: 360px;
+  width: 280px;
+  object-fit: cover;
+  object-position: top;
+  position:absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+#img5{
+  height: 360px;
+  width: 280px;
+  object-fit: cover;
+  object-position: top;
+  position:absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+#img2{
+  transform: translate(-50%,-50%) rotate(-40deg);
+}
+#img3{
+  transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img4{
+  transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img5{
+  transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left{
+  position: absolute;
+  bottom:5%;
+  left: 3%;
+  font-size: 15px;
+}
+
